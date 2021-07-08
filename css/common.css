@@ -111,18 +111,17 @@ li {
   border-radius: 50%;
   box-shadow: 0 0 50px 0 #d9d9d9;
 }
-.about_detail h3{
+.about_detail h3 {
   font-size: 30px;
   font-weight: bold;
 }
-.font5{
+.font5 {
   font-size: 18px;
   font-weight: bold;
 }
-.font5{
+.font5 {
   font-size: 16px;
 }
-
 
 .skill_item {
   display: flex;
@@ -136,13 +135,22 @@ li {
 }
 .skill_other {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 .skill_other_img {
-  margin-right: 60px;
+  margin: 0 30px 0 30px;
   text-align: center;
+  width: 120px;
 }
 .skill_other_img img {
+  width: 60px;
+}
+.Figma_img{
+  margin: 0 30px 0 30px;
+  text-align: center;
+  width: 120px;
+}
+.Figma_img img{
   width: 60px;
 }
 .skill_name p {
